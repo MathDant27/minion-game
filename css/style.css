@@ -38,6 +38,13 @@
     animation: nuvem 20s infinite linear;
 }
 
+.score {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    font-size: x-large;
+}
+
 @keyframes pipe-animation {
     from {
         right: -85px;

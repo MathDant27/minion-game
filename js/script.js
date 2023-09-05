@@ -1,5 +1,7 @@
 const minion = document.querySelector(".minion");
 const pipe = document.querySelector(".cano");
+const score = document.querySelector(".score");
+let count = 0;
 
 const jump = () => {
     minion.classList.add("jump");
